@@ -48,4 +48,4 @@ async def on_message(message):
     if message.channel == client.check_channel and any(word in message.content.lower() for word in word) or message.channel == client.check_channel2 and any(word in message.content.lower() for word in word):
         await message.delete()
     await client.process_commands(message)
-client.run("ODA4NzgwMzM5MzUwMDc3NTAw.YCLhYw.SARRfQ5_OmxoIY9LsNwpqPW2Qr4")
+client.run("")
